@@ -1,12 +1,12 @@
-import IO.CommandInterpreter;
-import IO.IOManager;
-import IO.InputReader;
-import IO.OutputWriter;
-import Judge.Tester;
-import Network.DownloadManager;
-import Repository.RepositoryFilter;
-import Repository.RepositorySorter;
-import Repository.StudentsRepository;
+import io.CommandInterpreter;
+import io.IOManager;
+import io.InputReader;
+import io.OutputWriter;
+import judge.Tester;
+import network.DownloadManager;
+import repository.RepositoryFilter;
+import repository.RepositorySorter;
+import repository.StudentsRepository;
 
 import java.io.IOException;
 

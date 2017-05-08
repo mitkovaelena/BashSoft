@@ -1,4 +1,4 @@
-package IO;
+package io;
 
 public class OutputWriter {
     public static void writeMessage(String message)

@@ -1,6 +1,6 @@
-package Exceptions;
+package exceptions;
 
-import StaticData.ExceptionMessages;
+import staticData.ExceptionMessages;
 
 public class DuplicateEntryInStructureException extends RuntimeException {
     public DuplicateEntryInStructureException(String entryNAme, String structureName) {

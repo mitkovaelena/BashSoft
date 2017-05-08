@@ -1,7 +1,7 @@
-package Repository;
+package repository;
 
-import IO.OutputWriter;
-import StaticData.ExceptionMessages;
+import io.OutputWriter;
+import staticData.ExceptionMessages;
 
 import java.util.HashMap;
 import java.util.function.Predicate;

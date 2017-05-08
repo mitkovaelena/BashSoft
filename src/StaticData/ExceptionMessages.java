@@ -1,4 +1,4 @@
-package StaticData;
+package staticData;
 
 public class ExceptionMessages {
     public static final String DATA_ALREADY_INITIALIZED = "Data is already initialized";
@@ -17,5 +17,7 @@ public class ExceptionMessages {
     public static final String INVALID_NUMBER_OF_SCORES = "The number of scores for the given course is greater than the possible.";
     public static final String NULL_OR_EMPTY_VALUE = "The value of the variable CANNOT be null or empty!";
     public static final String FORBIDDEN_SYMBOLS_CONTAINED_IN_NAME = "The given name contains symbols that are not allowed to be used in names of files or folders";
+    public static final String INVALID_COMMAND_MESSAGE = "The command '%s' is invalid";
 
-}
+
+    }

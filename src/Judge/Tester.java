@@ -1,7 +1,7 @@
-package Judge;
+package judge;
 
-import IO.OutputWriter;
-import StaticData.ExceptionMessages;
+import io.OutputWriter;
+import staticData.ExceptionMessages;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ public class Tester {
                 OutputWriter.writeMessageOnNewLine("Both files are identical. There are no mismatches");
             }
         } catch (Exception e) {
-        throw new Exceptions.InvalidPathException();
+        throw new exceptions.InvalidPathException();
       }
     }
 

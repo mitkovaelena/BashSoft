@@ -1,6 +1,6 @@
-package Exceptions;
+package exceptions;
 
-import StaticData.ExceptionMessages;
+import staticData.ExceptionMessages;
 
 public class InvalidPathException extends RuntimeException {
     public InvalidPathException() {

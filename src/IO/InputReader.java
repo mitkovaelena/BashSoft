@@ -1,6 +1,6 @@
-package IO;
+package io;
 
-import StaticData.SessionData;
+import staticData.SessionData;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,7 +1,7 @@
-package Network;
+package network;
 
-import IO.OutputWriter;
-import StaticData.SessionData;
+import io.OutputWriter;
+import staticData.SessionData;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -68,7 +68,7 @@ public class DownloadManager {
     private String extractNameOfFile(String fileUrl) throws MalformedURLException {
         int indexOfLastSlash = fileUrl.lastIndexOf('/');
         if (indexOfLastSlash == -1) {
-            throw new Exceptions.InvalidPathException();
+            throw new exceptions.InvalidPathException();
         }
 
         return fileUrl.substring(indexOfLastSlash + 1);

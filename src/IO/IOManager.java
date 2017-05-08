@@ -1,8 +1,8 @@
-package IO;
+package io;
 
-import Exceptions.InvalidFileNameException;
-import Exceptions.InvalidPathException;
-import StaticData.SessionData;
+import exceptions.InvalidFileNameException;
+import exceptions.InvalidPathException;
+import staticData.SessionData;
 
 import java.io.File;
 import java.util.ArrayDeque;

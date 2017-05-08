@@ -1,6 +1,6 @@
-package Repository;
+package repository;
 
-import IO.OutputWriter;
+import io.OutputWriter;
 
 import java.util.*;
 import java.util.stream.Collectors;
